@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACE9ED91C1D8ED000F777CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE9ED81C1D8ED000F777CB /* AppDelegate.swift */; };
+		AACE9EDB1C1D8ED000F777CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE9EDA1C1D8ED000F777CB /* ViewController.swift */; };
+		AACE9EDE1C1D8ED000F777CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE9EDC1C1D8ED000F777CB /* Main.storyboard */; };
+		AACE9EE01C1D8ED000F777CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACE9EDF1C1D8ED000F777CB /* Assets.xcassets */; };
+		AACE9EE31C1D8ED000F777CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE9EE11C1D8ED000F777CB /* LaunchScreen.storyboard */; };
+		AACE9EEE1C1D8ED000F777CB /* chartfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE9EED1C1D8ED000F777CB /* chartfinderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AACE9EEA1C1D8ED000F777CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACE9ECD1C1D8ED000F777CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACE9ED41C1D8ED000F777CB;
+			remoteInfo = chartfinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AACE9ED51C1D8ED000F777CB /* chartfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chartfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACE9ED81C1D8ED000F777CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AACE9EDA1C1D8ED000F777CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AACE9EDD1C1D8ED000F777CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AACE9EDF1C1D8ED000F777CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACE9EE21C1D8ED000F777CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AACE9EE41C1D8ED000F777CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACE9EE91C1D8ED000F777CB /* chartfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACE9EED1C1D8ED000F777CB /* chartfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartfinderTests.swift; sourceTree = "<group>"; };
+		AACE9EEF1C1D8ED000F777CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACE9ED21C1D8ED000F777CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACE9EE61C1D8ED000F777CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACE9ECC1C1D8ED000F777CB = {
+			isa = PBXGroup;
+			children = (
+				AACE9ED71C1D8ED000F777CB /* chartfinder */,
+				AACE9EEC1C1D8ED000F777CB /* chartfinderTests */,
+				AACE9ED61C1D8ED000F777CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACE9ED61C1D8ED000F777CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACE9ED51C1D8ED000F777CB /* chartfinder.app */,
+				AACE9EE91C1D8ED000F777CB /* chartfinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACE9ED71C1D8ED000F777CB /* chartfinder */ = {
+			isa = PBXGroup;
+			children = (
+				AACE9ED81C1D8ED000F777CB /* AppDelegate.swift */,
+				AACE9EDA1C1D8ED000F777CB /* ViewController.swift */,
+				AACE9EDC1C1D8ED000F777CB /* Main.storyboard */,
+				AACE9EDF1C1D8ED000F777CB /* Assets.xcassets */,
+				AACE9EE11C1D8ED000F777CB /* LaunchScreen.storyboard */,
+				AACE9EE41C1D8ED000F777CB /* Info.plist */,
+			);
+			path = chartfinder;
+			sourceTree = "<group>";
+		};
+		AACE9EEC1C1D8ED000F777CB /* chartfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACE9EED1C1D8ED000F777CB /* chartfinderTests.swift */,
+				AACE9EEF1C1D8ED000F777CB /* Info.plist */,
+			);
+			path = chartfinderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACE9ED41C1D8ED000F777CB /* chartfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACE9EF21C1D8ED000F777CB /* Build configuration list for PBXNativeTarget "chartfinder" */;
+			buildPhases = (
+				AACE9ED11C1D8ED000F777CB /* Sources */,
+				AACE9ED21C1D8ED000F777CB /* Frameworks */,
+				AACE9ED31C1D8ED000F777CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chartfinder;
+			productName = chartfinder;
+			productReference = AACE9ED51C1D8ED000F777CB /* chartfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACE9EE81C1D8ED000F777CB /* chartfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACE9EF51C1D8ED000F777CB /* Build configuration list for PBXNativeTarget "chartfinderTests" */;
+			buildPhases = (
+				AACE9EE51C1D8ED000F777CB /* Sources */,
+				AACE9EE61C1D8ED000F777CB /* Frameworks */,
+				AACE9EE71C1D8ED000F777CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACE9EEB1C1D8ED000F777CB /* PBXTargetDependency */,
+			);
+			name = chartfinderTests;
+			productName = chartfinderTests;
+			productReference = AACE9EE91C1D8ED000F777CB /* chartfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACE9ECD1C1D8ED000F777CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alessio Borraccino";
+				TargetAttributes = {
+					AACE9ED41C1D8ED000F777CB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AACE9EE81C1D8ED000F777CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AACE9ED41C1D8ED000F777CB;
+					};
+				};
+			};
+			buildConfigurationList = AACE9ED01C1D8ED000F777CB /* Build configuration list for PBXProject "chartfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AACE9ECC1C1D8ED000F777CB;
+			productRefGroup = AACE9ED61C1D8ED000F777CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACE9ED41C1D8ED000F777CB /* chartfinder */,
+				AACE9EE81C1D8ED000F777CB /* chartfinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACE9ED31C1D8ED000F777CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACE9EE31C1D8ED000F777CB /* LaunchScreen.storyboard in Resources */,
+				AACE9EE01C1D8ED000F777CB /* Assets.xcassets in Resources */,
+				AACE9EDE1C1D8ED000F777CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACE9EE71C1D8ED000F777CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACE9ED11C1D8ED000F777CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACE9EDB1C1D8ED000F777CB /* ViewController.swift in Sources */,
+				AACE9ED91C1D8ED000F777CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACE9EE51C1D8ED000F777CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACE9EEE1C1D8ED000F777CB /* chartfinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AACE9EEB1C1D8ED000F777CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACE9ED41C1D8ED000F777CB /* chartfinder */;
+			targetProxy = AACE9EEA1C1D8ED000F777CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AACE9EDC1C1D8ED000F777CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACE9EDD1C1D8ED000F777CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AACE9EE11C1D8ED000F777CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACE9EE21C1D8ED000F777CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AACE9EF01C1D8ED000F777CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AACE9EF11C1D8ED000F777CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACE9EF31C1D8ED000F777CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chartfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piccolo.chartfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACE9EF41C1D8ED000F777CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chartfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piccolo.chartfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AACE9EF61C1D8ED000F777CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chartfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piccolo.chartfinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chartfinder.app/chartfinder";
+			};
+			name = Debug;
+		};
+		AACE9EF71C1D8ED000F777CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chartfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piccolo.chartfinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chartfinder.app/chartfinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACE9ED01C1D8ED000F777CB /* Build configuration list for PBXProject "chartfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACE9EF01C1D8ED000F777CB /* Debug */,
+				AACE9EF11C1D8ED000F777CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACE9EF21C1D8ED000F777CB /* Build configuration list for PBXNativeTarget "chartfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACE9EF31C1D8ED000F777CB /* Debug */,
+				AACE9EF41C1D8ED000F777CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AACE9EF51C1D8ED000F777CB /* Build configuration list for PBXNativeTarget "chartfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACE9EF61C1D8ED000F777CB /* Debug */,
+				AACE9EF71C1D8ED000F777CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACE9ECD1C1D8ED000F777CB /* Project object */;
+}
